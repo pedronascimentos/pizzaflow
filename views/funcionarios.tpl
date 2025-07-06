@@ -1,6 +1,6 @@
 % rebase('layout.tpl', title='Gerenciar Funcionários', user=user)
 
-<h1 class="title">Gerenciar Funcionários</h1>
+<h1 class="title"  style="color: black">Gerenciar Funcionários</h1>
 <div class="columns">
     <div class="column is-two-thirds">
         <div class="box">

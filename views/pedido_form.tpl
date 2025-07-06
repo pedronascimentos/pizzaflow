@@ -2,7 +2,7 @@
 
 <div class="columns is-centered">
     <div class="column is-half">
-        <h1 class="title">Criar Novo Pedido</h1>
+        <h1 class="title"  style="color: black">Criar Novo Pedido</h1>
         <div class="box">
             <form action="/pedidos/novo" method="post">
                 <div class="field">

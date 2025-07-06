@@ -1,4 +1,3 @@
-
 [
     {
         "id": "demo-001",
@@ -17,7 +16,7 @@
                 "tipo": "bebida"
             }
         ],
-        "status": "Em Preparo",
+        "status": "Pendente",
         "data_hora": "2025-07-06 18:00:00",
         "total": 52.0,
         "mesa": null,
@@ -36,7 +35,7 @@
                 "tipo": "pizza"
             }
         ],
-        "status": "Pendente",
+        "status": "Em Preparo",
         "data_hora": "2025-07-06 18:10:00",
         "total": 45.0,
         "mesa": "5",

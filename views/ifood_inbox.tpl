@@ -1,6 +1,6 @@
 % rebase('layout.tpl', title='Inbox iFood', user=user)
 
-<h1 class="title">
+<h1 class="title" style="color: black">
     <span class="icon"><i class="fas fa-inbox"></i></span>
     Caixa de Entrada iFood
 </h1>

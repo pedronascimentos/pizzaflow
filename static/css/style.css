@@ -4,12 +4,6 @@ body {
 }
 
 
-.kanban-board {
-    display: flex;
-    gap: 1.5rem; 
-    overflow-x: auto; 
-    padding-bottom: 1rem;
-}
 
 .toastify.custom-toast {
  background-color: #f8f9fa !important; 
@@ -47,16 +41,26 @@ body {
 .toastify.custom-toast button {
  color: #dc3545 !important; 
 }
+.kanban-board {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+}
+
+/* Coluna com visual minimalista */
 .kanban-column {
-    flex: 1; 
-    min-width: 300px; 
-    background-color: #e8e8e8;
+    flex: 1;
+    min-width: 320px;
+    background-color: #f5f5f5; /* Um cinza bem claro uniforme */
     border-radius: 8px;
-    padding: 1rem;
+    padding: 0.75rem;
 }
 
 .kanban-column .title {
     color: #363636;
+    font-size: 1.25rem; /* Título da coluna um pouco menor */
+    padding: 0.5rem 0;
 }
 
 .kanban-cards {
