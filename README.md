@@ -1,7 +1,7 @@
 # PizzaFlow - Painel de Gestão para Pizzarias
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue?style=for-the-badge&logo=python)
-![Bottle](https://img.shields.io/badge/Bottle-0.12-green?style=for-the-badge&logo=bottle)
+![Bottle](https://img.shields.io/badge/Bottle-0.13+-green?style=for-the-badge&logo=bottle)
 ![Bulma](https://img.shields.io/badge/Bulma-1.0-purple?style=for-the-badge&logo=bulma)
 
 Projeto final da disciplina de Programação Orientada a Objetos, que consiste em uma aplicação web para gestão do fluxo de produção de uma pizzaria. O sistema utiliza um painel Kanban interativo para visualização e gerenciamento de pedidos em tempo real.
@@ -154,7 +154,7 @@ python main.py
 
 **6. Acesse o sistema:**
 
-  * Abra seu navegador e acesse: `http://localhost:8080`
+  * Abra seu navegador e acesse: `http://localhost:8081`
   * **Login Admin:** `admin@pizzaflow.com` / `admin`
   * **Login Funcionário:** `maria@pizzaflow.com` / `123`
 
