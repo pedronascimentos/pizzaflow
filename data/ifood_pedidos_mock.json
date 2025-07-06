@@ -1,0 +1,30 @@
+[
+    {
+        "mock_id": "ifood-a1b2",
+        "cliente_nome": "Joana Santos (iFood)",
+        "pizzas_nomes": [
+            "Mussarela",
+            "Calabresa"
+        ],
+        "endereco": "Rua das Flores, 123",
+        "status_aprovacao": "aguardando"
+    },
+    {
+        "mock_id": "ifood-c3d4",
+        "cliente_nome": "Marcos Oliveira (iFood)",
+        "pizzas_nomes": [
+            "Frango com Catupiry"
+        ],
+        "endereco": "Avenida Principal, 456",
+        "status_aprovacao": "aguardando"
+    },
+    {
+        "mock_id": "ifood-g7h8",
+        "cliente_nome": "Lucas Almeida (iFood)",
+        "pizzas_nomes": [
+            "Calabresa"
+        ],
+        "endereco": "Alameda dos Anjos, 101",
+        "status_aprovacao": "nao_liberado"
+    }
+]

@@ -1,0 +1,115 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5; 
+}
+
+
+.kanban-board {
+    display: flex;
+    gap: 1.5rem; 
+    overflow-x: auto; 
+    padding-bottom: 1rem;
+}
+
+.toastify.custom-toast {
+ background-color: #f8f9fa !important; 
+ color: #343a40 !important; 
+ border-left: 5px solid #28a745; 
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+ border-radius: 4px;
+ padding: 1rem;
+ margin-bottom: 1rem; 
+}
+
+
+.notification-card {
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    left: auto;  
+    z-index: 9999;
+    
+    background-color: #fff;
+    color: #363636;
+    padding: 16px 24px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-left: 5px solid #48c774;
+    transform: translateX(150%); 
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.notification-card.show {
+    transform: translateX(0); 
+}
+.toastify.custom-toast button {
+ color: #dc3545 !important; 
+}
+.kanban-column {
+    flex: 1; 
+    min-width: 300px; 
+    background-color: #e8e8e8;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.kanban-column .title {
+    color: #363636;
+}
+
+.kanban-cards {
+    min-height: 400px; 
+}
+
+.card {
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+}
+
+.card-header-title .icon {
+    margin-right: 0.75rem;
+}
+
+.card-footer {
+    border-top: 1px solid #dbdbdb;
+}
+
+.card-footer-item button {
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.hero.is-fullheight-with-navbar {
+    min-height: calc(100vh - 3.25rem);
+}
+
+.is-ghost {
+    background: #c8ebfb;
+    border: 2px dashed #4a90e2;
+}
+
+.card {
+    cursor: grab; 
+}
+
+.card:active {
+    cursor: grabbing;
+}
+
+
+.kanban-column:nth-child(1) { background-color: #eef2fa; } /* Pendente */
+.kanban-column:nth-child(2) { background-color: #fef8e7; } /* Em Preparo */
+.kanban-column:nth-child(3) { background-color: #fbeae7; } /* No Forno */
+.kanban-column:nth-child(4) { background-color: #eaf9f2; } /* Pronto */
+.kanban-column:nth-child(5) { background-color: #f5f5f5; } /* Finalizado */
+
+/* Estilo para a logo do ifood no badge */
+.tag .ifood-logo {
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+}

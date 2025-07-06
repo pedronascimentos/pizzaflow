@@ -1,0 +1,16 @@
+[
+    {
+        "id": "admin-001",
+        "nome": "Lucas Admin",
+        "email": "admin@pizzaflow.com",
+        "senha": "admin",
+        "tipo": "admin"
+    },
+    {
+        "id": "func-001",
+        "nome": "Maria Funcionario",
+        "email": "maria@pizzaflow.com",
+        "senha": "123",
+        "tipo": "funcionario"
+    }
+]

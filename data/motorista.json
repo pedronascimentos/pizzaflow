@@ -1,0 +1,12 @@
+[
+    {
+        "id": "mot-001",
+        "nome": "Carlos Silva",
+        "telefone": "6199999-0001"
+    },
+    {
+        "id": "mot-002",
+        "nome": "Fernanda Lima",
+        "telefone": "6199999-0002"
+    }
+]
