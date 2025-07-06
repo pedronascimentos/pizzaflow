@@ -124,8 +124,8 @@ pizzaflow/
 **2. Clone o repositório:**
 
 ```bash
-git clone https://github.com/pedronascimentos/epf-pizzaflow
-cd SEU_REPOSITORIO
+git clone https://github.com/pedronascimentos/pizzaflow
+cd pizzaflow
 ```
 
 **3. Crie e ative um ambiente virtual:**
